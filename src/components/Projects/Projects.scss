@@ -1,0 +1,13 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    @media screen and(min-width: 1000px){
+        height: 1000px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
