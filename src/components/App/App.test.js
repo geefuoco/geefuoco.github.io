@@ -19,7 +19,7 @@ describe("App", () => {
     ).toBeTruthy();
   });
 
-  it.skip("should container a projects section", () => {
+  it("should container a projects section", () => {
     setup();
     expect(screen.getByText(/projects/i)).toBeTruthy();
   });

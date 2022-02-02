@@ -2,13 +2,14 @@ import React, { useRef, useEffect } from "react";
 import "./App.scss";
 import Home from "../Home/Home";
 import AboutMe from "../AboutMe/AboutMe";
+import Projects from "../Projects/Projects";
 
 function App() {
   const app = useRef();
   const [red, green, blue] = [52, 23, 132];
 
   const scrollBackground = (ev) => {
-    const y = 1 + window.scrollY / 500;
+    const y = 1 + window.scrollY / 550;
     const [r, g, b] = [red * y, green * y * y, blue * y].map(Math.round);
     app.current.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
   };
@@ -23,6 +24,7 @@ function App() {
     <div className="app" ref={app}>
       <Home />
       <AboutMe />
+      <Projects />
     </div>
   );
 }
