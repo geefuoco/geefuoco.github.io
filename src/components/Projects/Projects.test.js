@@ -11,6 +11,6 @@ describe("Projects", () => {
 
   it("should render links to different websites that have projects", () => {
     setup();
-    expect(screen.getByRole("link")).toBeTruthy();
+    expect(screen.getAllByRole("link").length).toBeGreaterThanOrEqual(2);
   });
 });
