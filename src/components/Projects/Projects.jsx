@@ -29,35 +29,50 @@ const Projects = () => {
       <div className="projects">
         <ProjectCard
           link={"https://mernshopex.herokuapp.com"}
-          imageObject={{ source: "", alt: "example" }}
+          imageObject={{
+            source: "/images/mernshopex.png",
+            alt: "a screenshot of the mernshopex webpage",
+          }}
           description={mernShopDesc}
           github={"https://github.com/geefuoco/mern_shop"}
           name="Mern Shopping App"
         />
         <ProjectCard
           link={"https://thepeoplenetwork.herokuapp.com"}
-          imageObject={{ source: "", alt: "example" }}
+          imageObject={{
+            source: "/images/thepeoplenetwork.png",
+            alt: "a screenshot of thepeoplenetwork webpage",
+          }}
           description={socialMediaDesc}
           github={"https://github.com/geefuoco/the_people_network"}
           name="Social Media Site"
         />
         <ProjectCard
           link={"https://battleshipjavascript.netlify.app"}
-          imageObject={{ source: "", alt: "example" }}
+          imageObject={{
+            source: "/images/battleshipjs.png",
+            alt: "a screenshot of the battleshipjs webpage",
+          }}
           description={battleShipDesc}
-          github={"https://github.com/battleshipjs"}
+          github={"https://github.com/geefuoco/battleshipjs"}
           name="Battleship"
         />
         <ProjectCard
           link={"https://replit.com/@geefuoco/rubychess#"}
-          imageObject={{ source: "", alt: "example" }}
+          imageObject={{
+            source: "/images/rubychess.png",
+            alt: "a screenshot of the ruby repl",
+          }}
           description={rubyChessDesc}
           github={"https://github.com/geefuoco/ruby_chess"}
           name="Chess"
         />
         <ProjectCard
           link={"https://bulldogwebsite.netlify.app/"}
-          imageObject={{ source: "", alt: "example" }}
+          imageObject={{
+            source: "/images/bulldogwebsite.png",
+            alt: "a screenshot of the bulldog website",
+          }}
           description={dogWebsiteDesc}
           github={"https://github.com/geefuoco/dog-website"}
           name="Example Dog Website"
