@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import AboutMe from "../AboutMe/AboutMe";
 import Projects from "../Projects/Projects";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 function App() {
   const app = useRef();
@@ -27,6 +28,7 @@ function App() {
       <Home />
       <AboutMe />
       <Projects />
+      <Footer />
     </div>
   );
 }
