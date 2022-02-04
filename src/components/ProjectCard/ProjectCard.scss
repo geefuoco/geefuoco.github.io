@@ -3,9 +3,17 @@
     flex-direction: column;
     padding: 1.2rem;
     width: 420px;
-    box-shadow: .4rem .4rem .4rem lightgrey;
+    background-color: #eee;
+    box-shadow: .2rem .4rem .4rem lightgrey;
     border-radius: 14px;
     color: #1d1d1d;
+    @media screen and(min-width: 1000px){
+        &:hover{
+            transform: scale(1.2);
+            z-index: 2;
+            transition: 200ms;
+        }
+    }
 }
 
 .project-header,
@@ -16,6 +24,8 @@
 
 .project-image{
     width: 100%;
+    border: solid 4px black;
+    border-radius: 2px;
 }
 
 .project-description{

@@ -3,6 +3,7 @@ import "./App.scss";
 import Home from "../Home/Home";
 import AboutMe from "../AboutMe/AboutMe";
 import Projects from "../Projects/Projects";
+import Navbar from "../Navbar/Navbar";
 
 function App() {
   const app = useRef();
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div className="app" ref={app}>
+      <Navbar />
       <Home />
       <AboutMe />
       <Projects />

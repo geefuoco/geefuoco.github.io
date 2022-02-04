@@ -24,7 +24,7 @@ const Projects = () => {
   `;
 
   return (
-    <section className="projects-container">
+    <section id="projects" className="projects-container">
       <h2 className="projects-title">Projects</h2>
       <div className="projects">
         <ProjectCard
