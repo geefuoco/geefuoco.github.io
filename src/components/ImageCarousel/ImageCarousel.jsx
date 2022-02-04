@@ -8,6 +8,7 @@ const imageObjects = [
   { source: "/images/docker-icon.svg", alt: "docker-icon.svg" },
   { source: "/images/express.svg", alt: "express.svg" },
   { source: "/images/git-icon.svg", alt: "git-icon.svg" },
+  { source: "/images/github-icon.svg", alt: "github-icon.svg" },
   { source: "/images/html-5.svg", alt: "html-5.svg" },
   { source: "/images/java.svg", alt: "java.svg" },
   { source: "/images/javascript.svg", alt: "javascript.svg" },

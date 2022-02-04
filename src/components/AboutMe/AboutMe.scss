@@ -42,3 +42,18 @@
     width: 100%;
 
 }
+
+.about-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.github-text{
+    display: inline;
+    margin-left: 8px;
+}

@@ -28,6 +28,25 @@ const AboutMe = () => {
           I am a self taught programmer with the passion and drive to learn and
           evolve my coding skills.
         </p>
+        <p className="about-description">
+          Feel free to contact me by email for any inquiries:{" "}
+          <i>gianluca.fuoco9@gmail.com</i>
+        </p>
+        <div className="about-links">
+          <a
+            href="https://github.com/geefuoco"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="github-icon"
+              src="/images/github-icon.svg"
+              alt="github"
+              width="20px"
+            />
+            <p className="github-text">Github</p>
+          </a>
+        </div>
       </div>
       <div className="desk-image-container">
         <img
